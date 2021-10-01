@@ -19,7 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="import\algebra.ixx" />
+    <ClCompile Include="import\algebra\axioms.ixx" />
+    <ClCompile Include="import\algebra\complex.ixx" />
+    <ClCompile Include="import\algebra\quaternion.ixx" />
+    <ClCompile Include="import\algebra\real.ixx" />
+    <ClCompile Include="import\algebra\structures.ixx" />
     <ClCompile Include="import\ladle.ixx" />
+    <ClCompile Include="import\matrix.ixx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="import\algebra\structure_macros.h" />
+    <ClInclude Include="import\config.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

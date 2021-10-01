@@ -15,7 +15,17 @@
 // See the License for the specific language governing permissionsand
 // limitations under the License.
 // =======================================================================
+#ifndef LADLE_CONFIG_H
+#define LADLE_CONFIG_H
 
-export module ladle;
 
-export import ladle.algebra
+import <cmath>;
+
+namespace ladle {
+
+	// floating-point type used to represent real numbers
+	using default_fp_t = std::double_t;
+
+} // namespace ladle
+
+#endif //LADLE_CONFIG_H

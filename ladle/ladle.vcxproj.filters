@@ -13,10 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Headerdateien\algebra">
+      <UniqueIdentifier>{1fa05878-2c56-499f-9ae7-a8616ba30ac4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="import\ladle.ixx">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="import\matrix.ixx">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="import\algebra.ixx">
+      <Filter>Headerdateien</Filter>
+    </ClCompile>
+    <ClCompile Include="import\algebra\axioms.ixx">
+      <Filter>Headerdateien\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="import\algebra\complex.ixx">
+      <Filter>Headerdateien\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="import\algebra\quaternion.ixx">
+      <Filter>Headerdateien\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="import\algebra\real.ixx">
+      <Filter>Headerdateien\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="import\algebra\structures.ixx">
+      <Filter>Headerdateien\algebra</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="import\algebra\structure_macros.h">
+      <Filter>Headerdateien\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="import\config.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

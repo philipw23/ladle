@@ -16,6 +16,23 @@
 // limitations under the License.
 // =======================================================================
 
-export module ladle;
+module;
 
-export import ladle.algebra
+#include "structure_macros.h"
+
+export module ladle.algebra.real;
+
+import "config.h";
+import ladle.algebra.axioms;
+import ladle.algebra.structures;
+
+
+export {
+	LADLE_FIELD(float, 0.0f, 1.0f)
+}
+
+export namespace ladle {
+
+	using real = default_fp_t;
+
+} // namespace ladle
